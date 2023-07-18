@@ -41,17 +41,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AwardType.cs" />
      <Compile Include="Assets\Scripts\AchievementsTypes.cs" />
      <Compile Include="Assets\Scripts\Wallet.cs" />
      <Compile Include="Assets\Scripts\AchievementScreen.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjectsScripts\AchievementModel.cs" />
+     <Compile Include="Assets\Scripts\ItemScreenManager.cs" />
+     <Compile Include="Assets\Scripts\ItemScreen.cs" />
+     <Compile Include="Assets\Scripts\WalletView.cs" />
      <Compile Include="Assets\GUI PRO Kit - Casual Game\Extensions\UIParticle\UIParticleSystem.cs" />
      <Compile Include="Assets\Scripts\AchievementView.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjectsScripts\AchievementsSettings.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjectsScripts\ItemModel.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjectsScripts\MoneyTypePrefab.cs" />
-     <Compile Include="Assets\Scripts\WalletView.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

@@ -9,14 +9,16 @@ public class Wallet : MonoBehaviour
 
     public void AddGold(AchievementView achievementView, int delta)
     {
-        GoldScore += delta;
-        ScoreHandler?.Invoke(achievementView, delta, GoldScore);
+        var oldScore = GoldScore;
+        GoldScore = oldScore + delta;
+        ScoreHandler?.Invoke(achievementView, oldScore, GoldScore);
 
     }
 
     public void AddGem(AchievementView achievementView, int delta)
     {
-        GemScore = delta;
-        ScoreHandler?.Invoke(achievementView, delta, GemScore);
+        var oldScore = GemScore;
+        GemScore = oldScore + delta;
+        ScoreHandler?.Invoke(achievementView, oldScore, GemScore);
     }
 }

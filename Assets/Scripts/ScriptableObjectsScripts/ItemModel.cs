@@ -3,7 +3,7 @@ using UnityEngine;
 public class ItemModel : ScriptableObject
 {
     [field:SerializeField] public string NameAward { get; private set; }
-    [field:SerializeField] public AwardType AwardType { get; private set; }
+    [field:SerializeField] public int Id { get; private set; }
     [field:SerializeField] public string Description { get; private set; }
     [field:SerializeField] public Sprite Icon { get; private set; }
 }
